@@ -1,0 +1,476 @@
+/* Input tags*/
+input[type="text"], input[type="submit"], input[type="password"] {
+	border: 1px solid #ccc;
+	margin: 4px;
+	box-shadow: inset 0 1px 3px #ddd;
+	border-radius: 4px;
+	font-family: Calibri, Arial;
+	font-size: 12px;
+}
+
+/* Menu bar */
+#menu {
+	z-index: 2;
+	position: absolute;
+	top: 110px;
+	left: 10px;
+	width: 700px;
+	height:26px;
+	background-color:	#19193E;
+}
+
+#menu ul {
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#menu ul li {
+	margin: 0;
+	padding: 0;
+	float:left;
+}
+
+#menu li a {
+	display: block;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	padding-top: 6px;
+	color: #FFFFFF;
+	background-color:	#19193E; 
+	text-decoration: none;
+}
+
+#menu li a:hover {
+	background-color: #7A991A;
+}
+
+/* dropdown */
+#menu ul ul{
+	display:none;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#menu ul ul li {
+	float:none;
+	width:200px
+}
+
+#menu ul li:hover > ul {
+	display:block
+}
+
+/* Header */
+#header {
+	float:left;
+	font-family: sans-serif, Calibri, Arial;
+	font-size: small;	
+	width: 70%;
+	height: 150px;
+}
+
+#logo{
+	width:250px; 
+	height:100px;
+}
+
+/* Wrapper to center the content */
+#geheel{
+	position:absolute;
+	left:20%;
+}
+
+/* Loginbox within the header */
+#loginbox {
+	position: absolute;
+	top: 15px;
+	left: 400px;
+	width: 350px;
+	height: 80px;
+	margin-top: 10px;
+}
+
+#loginbox p {
+	margin-left: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Calibri, Arial;
+}
+
+/* Menubar within the header */
+#menubar {
+	position: absolute;
+	top: 110px;
+	left: 10px;
+	width:100%;
+	height:40px;
+}
+
+/* Advertisment bar on the right */
+#adbar {
+	position: absolute;
+	top: 250px;
+	left: 750px;
+	width:150px;
+	height:600px;
+	padding: 0px;
+}
+
+/* body */
+#content{
+	font-family: Calibri, Arial;
+	font-size: 14px;
+	position: absolute;
+	top: 140px;
+	left: 10px;
+	height:600px;
+	width:660px;
+}
+
+#content img {
+	position:static;
+	margin: 10px;
+	float: right;
+}
+		
+#productOverizcht h2{ 
+	text-align:center;
+} 
+
+#title{
+	text-align:center;
+} 
+
+/* new */
+#productOverizcht img{
+  position:absolute;
+  left:-30px;
+  width:200px;
+  height:200px;
+}
+
+#productOverizcht div	{
+  position:relative;
+  width:200px;
+  height:220px;
+  left:200px;
+}
+
+#productOverizcht p{
+  width:250px;
+}
+
+#vooraad {
+  position:relative;
+  top:-50px;
+  left:300px;
+}
+
+#productOverizcht input{
+  width:100px;
+}
+
+#WinkelWagenToevoegen{
+  position:absolute;
+  left:-100px;
+}
+
+#WinkelWagenToevoegen b, #WinkelWagenToevoegen input, #WinkelWagenToevoegen button {
+  float:left;
+  left:-100px;
+}
+
+/* product overzicht content */
+#selecteerProduct{
+	position:relative;
+	top:-280px;
+	left:220px;
+}
+
+#zoekmProduct{
+	position:absolute;
+	left:40%;
+	top: 10px;
+}
+
+#toonProduct p, #toonProduct select {
+	display: inline;
+	position: relative;
+	top: 45px;
+	left: 10px
+}
+
+#productDisplay{
+  position:relative;
+  top:50px;
+  width:900px;
+  height:220px;
+  left:-200px;
+}
+
+.gerelateerdproduct{
+	border: 	2px solid #ccc;
+	float:		left;
+	width: 200px;
+	height:		200px;
+	margin-left:7px;
+	margin-right:7px;	
+}
+
+#subcategorie{
+	margin-left:50px;
+}
+
+#subcategorie ul{
+	border: 1px solid;
+	position: relative;
+	left: -220px;
+	top:50px;
+	list-style-type: none;
+	width: 100px;
+	height: 125px;
+}
+
+#subcategorie li{
+	margin-top:5px;
+	margin-left:-12px;
+	text-decoration:underline;
+	color:blue;
+}
+
+.gerelateerdproduct button{
+  position:relative;
+  left:60px;
+  top:-40px;
+}
+
+#productOverizcht h2{ 
+	text-align:center;
+} 
+
+#productOverizcht h3{ 
+	text-align:center;
+	margin-left:65px;
+} 
+
+#productOverizcht img{
+	position:absolute;
+	left:-30px;
+	width:200px;
+	height:200px;
+}
+
+#productOverizcht div	{
+	position:relative;
+	width:200px;
+	height:220px;
+	left:200px;
+}
+
+#productOverizcht p{
+	width:250px;
+}
+
+#productOverizcht input{
+	width:100px;
+}
+
+/* Product overzicht classes */
+.ProductenProductoverzicht{
+	position:relative;
+  top:-100px;
+  border: 1px solid;
+  width:150px;
+  height:200px;
+  margin-left:12px;
+  float:left;
+}
+
+.ProductenProductoverzicht img{
+  height : 100px;
+  width :125px;
+  margin-left:10px;
+}
+
+.ProductenProductoverzicht p{
+  margin-left:20px;
+}
+
+.ProductenProductoverzicht button{
+  margin-left:20px;
+  position:relative;
+  top:-10px;
+}
+
+.gerelateerdproduct{
+	border: 	2px solid #ccc;
+	float:		left;
+	width: 200px;
+	height:		200px;
+	margin-left:7px;
+	margin-right:7px;
+}
+
+.gerelateerdproduct img{
+	position:absolute;
+	border: 2px solid #ccc;
+	height:125px;
+	width:125px;
+}
+
+.gerelateerdproduct  p{
+  position:relative;
+  margin-left:10px;
+  top:-5px;
+}
+
+.gerelateerdproduct  button{
+  position:relative;
+  left:60px;
+ top:-40px;
+}
+
+/* winkelwagen content */
+#winkelwagenContent > button{
+	margin-left:20px;
+}
+
+#winkelwagenContent h1{
+	position:absolute;
+	text-align:center;
+	margin-left:250px;
+	top:140px;
+	font-family: Calibri, Arial;
+}
+
+#winkelwagenContent >table{
+	position:absolute;
+	top:200px;
+	margin-left:25px;
+	font-family: Calibri, Arial;
+	font-size: 13px;
+}
+
+#WinkelwagenTotaal{
+	position:absolute;
+	top:620px;
+	left:430px;
+	width:500px;
+	height:50px;
+}
+
+#WinkelwagenTotaal table , button{ 
+	float:left;
+	margin-left:5px;
+}
+
+#WinkelWagenToevoegen{
+	position:absolute;
+	left:-100px;
+}
+
+#WinkelWagenToevoegen b, #WinkelWagenToevoegen input, #WinkelWagenToevoegen button {
+	float:left;
+	left:-100px;
+}
+
+#Afrekenen{
+  position:absolute;
+  top:50px;
+  left:150px;
+}
+
+/* Product pagina content */
+#vooraad {
+	position:relative;
+	top:-50px;
+	left:300px;
+}
+
+#productInfo{
+	margin-left:220px;
+	position:relative;
+	top:-230px;
+	width:300px;
+}
+
+#productDisplay{
+	position:relative;
+	top:50px;
+	width:900px;
+	height:220px;
+	left:-200px;
+}
+
+/* tables */
+table, th, td {
+  border: 1px solid black;
+	border-collapse: collapse;
+	padding: 4px;
+}
+
+table p {
+	padding: 3px;
+	font-size: small;
+	margin: 0;
+}
+
+table td div {
+	float:left;
+	margin: 2px;
+}
+
+table td {
+	float: top;
+}
+
+/* Submit button must be aligned right */
+#submitbtn {
+	margin: 3px;
+	float:right;
+}
+
+/* used to clear floating */
+.clear {
+	clear: both;
+	margin:0;
+}
+
+#winkelwagenContent > button{
+  margin-left:20px;
+}
+
+#winkelwagenContent h1{
+	position:absolute;
+	text-align:center;
+	margin-left:250px;
+	top:140px;
+	font-family: Calibri, Arial;
+}
+
+#winkelwagenContent >table{
+	position:absolute;
+	top:200px;
+	margin-left:25px;
+	font-family: Calibri, Arial;
+	font-size: 13px;
+}
+
+#WinkelwagenTotaal{
+  position:absolute;
+  top:620px;
+  left:430px;
+  width:500px;
+  height:50px;
+}
+
+#WinkelwagenTotaal table , button{ 
+  float:left;
+  margin-left:5px;
+}
